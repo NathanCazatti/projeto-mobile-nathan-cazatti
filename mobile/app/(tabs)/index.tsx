@@ -20,7 +20,7 @@ export default function HomeScreen() {
         
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Seu Saldo atual:</ThemedText>
+        <ThemedText type="subtitle">Conta</ThemedText>
         <ThemedText>
            <ThemedText type="defaultSemiBold"></ThemedText> R$ 15.937,00
         {' '}
@@ -35,20 +35,13 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">: Aqui est</ThemedText>
+        <ThemedText type="subtitle">Seus cartões virtuais</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
+          
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">: Get a fresh start</ThemedText>
-        <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
+        <ThemedText type="subtitle">......</ThemedText>
       </ThemedView>
     </ParallaxScrollView>
   );
@@ -65,8 +58,9 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 178,
-    width: 290,
+    height: 250,
+    width: 500
+    ,
     bottom: 0,
     left: 0,
     position: 'absolute',

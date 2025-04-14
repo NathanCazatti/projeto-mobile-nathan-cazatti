@@ -11,7 +11,7 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#fffff', dark: '#fffff' }}
       headerImage={
         <Image
-          source={require('@/assets/images/partial-react-logo.png')}
+          source={require('@/assets/images/oo.png')}
           style={styles.reactLogo}
         />
       }>
@@ -58,10 +58,10 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 250,
-    width: 500
+    height: 400,
+    width: 1600
     ,
-    bottom: 0,
+    bottom: -45,
     left: 0,
     position: 'absolute',
   },

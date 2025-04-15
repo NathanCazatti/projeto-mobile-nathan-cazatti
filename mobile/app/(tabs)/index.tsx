@@ -8,7 +8,7 @@ import { ThemedView } from '@/components/ThemedView';
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#fffff', dark: '#fffff' }}
+      headerBackgroundColor={{ light: 'white', dark: 'white ' }}
       headerImage={
         <Image
           source={require('@/assets/images/oo.png')}
@@ -35,13 +35,19 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Seus cartões virtuais</ThemedText>
+        <div >
+        <button>Pix</button>
+        <button>Pagar</button>
+        <button>Transferir</button>
+        </div>
+        <ThemedText type="subtitle">Meus Cartões:</ThemedText>
         <ThemedText>
           
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">......</ThemedText>
+        <ThemedText type="defaultSemiBold">Cartão de crédito</ThemedText>
+        <ThemedText type="default">Nenhum cartão de crédito encontrado</ThemedText>
       </ThemedView>
     </ParallaxScrollView>
   );
@@ -66,5 +72,3 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
 });
-
-

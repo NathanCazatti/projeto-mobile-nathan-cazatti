@@ -35,7 +35,7 @@ export default function HomeScreen() {
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <div >
+        <div>
         <button>Pix</button>
         <button>Pagar</button>
         <button>Transferir</button>

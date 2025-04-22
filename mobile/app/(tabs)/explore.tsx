@@ -22,56 +22,24 @@ export default function TabTwoScreen() {
       </ThemedView>
       <ThemedText>Suas últimas transferências</ThemedText>
       <Collapsible title="Compra em mercado">
-        <ThemedText>
-          This app has two screens:{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
-        </ThemedText>
-        <ThemedText>
-          The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
-          sets up the tab navigator.
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
+      <ThemedText>20/05/2025</ThemedText>
+      <ThemedText>Valor: R$267,00</ThemedText>
       </Collapsible>
       <Collapsible title="Transferência realizada">
-        <ThemedText>
-          You can open this project on Android, iOS, and the web. To open the web version, press{' '}
-          <ThemedText type="defaultSemiBold">w</ThemedText> in the terminal running this project.
-        </ThemedText>
+        <ThemedText>17/05/2025</ThemedText>
+        <ThemedText>Valor: R$350,00</ThemedText>
       </Collapsible>
       <Collapsible title="Transferência recebida">
-        <ThemedText>
-          For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
-          different screen densities
-        </ThemedText>
-        <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
-        <ExternalLink href="https://reactnative.dev/docs/images">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
+        <ThemedText>15/05/2025</ThemedText>
+        <ThemedText>Valor: R$1200,00</ThemedText>
       </Collapsible>
       <Collapsible title="Compra em farmácia">
-        <ThemedText>
-          Open <ThemedText type="defaultSemiBold">app/_layout.tsx</ThemedText> to see how to load{' '}
-          <ThemedText style={{ fontFamily: 'SpaceMono' }}>
-            custom fonts such as this one.
-          </ThemedText>
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/versions/latest/sdk/font">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
+        <ThemedText>14/05/2025</ThemedText>
+        <ThemedText>Valor: R$57,00</ThemedText>
       </Collapsible>
-      <Collapsible title="Light and dark mode components">
-        <ThemedText>
-          This template has light and dark mode support. The{' '}
-          <ThemedText type="defaultSemiBold">useColorScheme()</ThemedText> hook lets you inspect
-          what the user's current color scheme is, and so you can adjust UI colors accordingly.
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/develop/user-interface/color-themes/">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
+      <Collapsible title="Transferência realizada">
+        <ThemedText>11/05/2025</ThemedText>
+        <ThemedText>Valor: R$250,00</ThemedText>
       </Collapsible>
       <Collapsible title="Compra em mercado">
         <ThemedText>10/5/2025</ThemedText>

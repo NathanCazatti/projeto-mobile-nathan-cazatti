@@ -40,7 +40,7 @@ export default function HomeScreen() {
         <button>Pagar</button>
         <button>Transferir</button>
         </div>
-        <ThemedText type="subtitle">Meus Cartões:</ThemedText>
+        <ThemedText type="subtitle">Meus Cartões virtuais:</ThemedText>
         <ThemedText>
           
         </ThemedText>
@@ -49,6 +49,10 @@ export default function HomeScreen() {
         <ThemedText type="defaultSemiBold">Cartão de crédito</ThemedText>
         <ThemedText type="default">Nenhum cartão de crédito encontrado</ThemedText>
       </ThemedView>
+      <ThemedText type="defaultSemiBold">Cartão de débito</ThemedText>
+      <div>
+     <button>Meu cartão</button>
+     </div>
     </ParallaxScrollView>
   );
 }
